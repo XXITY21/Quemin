@@ -1,0 +1,507 @@
+body {
+    background: #292826; 
+    color: #F5F2ED; 
+    font-family: 'Roboto Condensed';
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.intro{
+    margin-bottom: 270px;
+}
+
+.header_menu a {
+    display: inline-block;
+	text-decoration: none;
+    color: #F5F2ED;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 20px; 
+}
+
+.header_menu ul {
+	margin: 0;
+	padding: 0;
+    text-align: right;
+}
+
+.menu li {
+	display: inline-block;
+	margin: 0;  
+    
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: bold;  
+    float: left;
+    margin-top: -5px;
+}
+
+.line__top{
+    
+    width: 100%;
+          height: 1px;
+          background-color: #DC9271;
+          
+  
+}
+
+.photographers_color_menu{
+    color: #DC9271;
+}
+
+h1 {
+    font-size: 70px;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.welcome {
+    float:right;
+    
+   
+}
+
+.Book_intro {
+    margin-left: 210px;
+    padding: 14px 24px;
+    background-color: #DC9271;
+    border-radius: 10px;
+    font-size: 28px;
+    color: #F5F2ED;
+    
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.about {
+    margin-bottom: 100px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+.list-services__book{
+    margin-left: 0;
+    font-size: 20px;
+}
+
+.service-item{
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-bottom: 50px;
+    border-radius: 6px;
+    border:3px solid  rgba(220, 146, 113, 1)
+}
+
+.list-services{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item__wrapper{
+    text-align: center;
+    max-width: 220px;
+}
+
+.service-item__title{
+    font-size: 32px;
+}
+
+.service-item__price {
+    font-size: 36px;
+    color: #DC9271;
+    margin-top: -30px;
+    font-weight: 300;
+}
+
+h3 {
+     font-weight: 400;
+}
+
+.photo_gallery {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.one {
+    margin-bottom: 65px;
+}
+
+
+.gallery_description {
+    max-width: 900px;
+    font-weight: 300;
+
+
+}
+
+.service-item__description {
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 800px;
+    margin-bottom: 50px;
+}
+
+.price_decoration {
+    opacity: 50%;
+}
+
+
+.list_reviews {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.reviews_item__title {
+font-weight: 500;
+font-size: 24px;
+max-width: 400px;
+}
+
+.reviews_item__description {
+    font-weight: 200;
+    max-width: 375px;
+}
+
+.reviews_item__name {
+    font-weight: bold;
+    max-width: 150px;
+}
+
+.contacts_time_address {
+    text-align: center;
+}
+
+.contacts_time {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.contacts_address {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.contact_items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainscreen
+{
+    max-width: 450px;
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    color: #DC9271;
+}
+
+.footer-links{
+    display:block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: .8rem 0;
+}
+
+.inputbox
+{
+    color:#030303;
+	width: 100%;
+    padding: 0.5rem;
+    border: none; 
+    margin-bottom: 10px;
+    border-radius: 0.3rem;
+    color: #6b6b6b;
+    font-size: 1.1rem;
+    font-weight: 500;
+  outline:none;
+}
+
+.button_submit {
+    background-color: #DC9271;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #F5F2ED;
+    padding: 14px 24px;
+    outline: none;
+    border: none;
+    margin-left: 290px;
+    margin-top: 35px;
+    font-family: Roboto Condensed;
+}
+
+.photo_studio__1 {
+  float: right;
+  margin-top: 20px;
+}
+
+.check
+{
+ margin-top: 25px;
+}
+
+.footer {
+  
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.footer .footer-left  {
+  color: #8f9296;
+  font-size: 14px;
+}
+
+.footer p.footer-links {
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer p.footer-links a {
+
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer .footer-links a:before {
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  padding-right: 5px;
+  content: "";
+}
+
+.footer-links .link-1:before {
+  content: none;
+}
+
+.footer .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 250px;
+}
+
+.footer-right a {
+  height: 35px;
+  margin: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.end_footer {
+   margin-top: 50px;
+    margin-left: 600px;
+}
+
+.footer_line {
+    margin-bottom: 40px;
+}
+
+.welcome2 {
+    text-align: right;
+    color: #F5F2ED;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.ddd {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: -50px;
+}
+
+/* Photographers */
+
+
+.photographers_heading {
+    
+    text-align: center;
+}
+
+.photographers_heading__professional {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.photographers_items_list {
+display: flex;
+justify-content: space-between;
+}
+
+h4 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.description_photograph {
+    max-width: 380px;
+    margin-bottom: 40px;
+}
+
+/* Studios */
+
+
+.studio_1 {
+    float: right;
+}
+
+.list_studio_item {
+    margin-bottom: 200px;
+}
+
+.studio_description_wrapper {
+    max-width: 350px;
+}
+
+.description_studio_head {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.studio_description {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+
+/* Works */
+
+.works_list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.work_list_item {
+    max-width: 400px;
+}
+
+
+.reklam_description {
+max-width: 250px;
+
+}
+
+.button_works {
+    float: right;
+    margin-top: -65px;
+}
+
+/* Tabs Services */
+
+ 
+  button:focus,
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none; }
+  
+  .tabs {
+    display: block;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    overflow: hidden; }
+    .tabs [class^="tab"] label,
+    .tabs [class*=" tab"] label {
+      color: #F5F2ED;
+      font-size: 20px;
+      font-weight: 300;
+      cursor: pointer;
+      display: block;
+     
+      line-height: 1em;
+      padding: 2rem 0;
+      text-align: center; }
+    .tabs [class^="tab"] [type="radio"],
+    .tabs [class*=" tab"] [type="radio"] {
+      border-bottom: 1px solid rgba(239, 237, 239, 0.5);
+      cursor: pointer;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      display: block;
+      width: 100%;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      .tabs [class^="tab"] [type="radio"]:hover, .tabs [class^="tab"] [type="radio"]:focus,
+      .tabs [class*=" tab"] [type="radio"]:hover,
+      .tabs [class*=" tab"] [type="radio"]:focus {
+        border-bottom: 1px solid #F5F2ED; }
+      .tabs [class^="tab"] [type="radio"]:checked,
+      .tabs [class*=" tab"] [type="radio"]:checked {
+        border-bottom: 2px solid #F5F2ED; }
+      .tabs [class^="tab"] [type="radio"]:checked + div,
+      .tabs [class*=" tab"] [type="radio"]:checked + div {
+        opacity: 1; }
+      .tabs [class^="tab"] [type="radio"] + div,
+      .tabs [class*=" tab"] [type="radio"] + div {
+        display: block;
+        opacity: 0;
+        padding: 2rem 0;
+        width: 90%;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+    .tabs .tab-2 {
+      width: 50%; }
+      .tabs .tab-2 [type="radio"] + div {
+        width: 200%;
+        margin-left: 200%; }
+      .tabs .tab-2 [type="radio"]:checked + div {
+        margin-left: 0; }
+      .tabs .tab-2:last-child [type="radio"] + div {
+        margin-left: 100%; }
+      .tabs .tab-2:last-child [type="radio"]:checked + div {
+        margin-left: -100%; }
+
+        
+        /* Category_reklam */
+
+        .category-items {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+
+
+       
